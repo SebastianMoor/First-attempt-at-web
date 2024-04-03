@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+    <form action="action_page.php" method="get">
+
+        <label for="fname">first name</label>
+   <input type="text" id="fname" name="fname" place holder="John" required>
+
+   
+</div>
+
+<br>
+
+<div>
+  
+
+        <label for="lname">last name</label>
+   <input type="text" id="lname" name="lname" place holder="Smith" required>
+
+</div>
+
+<br>
+
+<div>
+   <label for="email">Email</label>
+   <input type="email" id="email" name="email" place holder="Johnsmith@email.com" minlength="8"required>
+</div>
+
+<br>
+
+<div>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass" place holder="Password" required>
+ </div>
+ 
+ <br>
+
+ <div>
+    <label for="phone">phone number</label>
+    <input type="tel" id="phone" name="phone" place holder="0861234567" required>
+ </div>
+ 
+ <br>
+
+ <div>
+    <label for="bdate">Birth Date</label>
+    <input type="date" id="bdate" name="bdate" place holder="dd/mm/yy"required>
+ </div>
+ 
+ <br>
+
+ <div>
+    <label for="quantity">quantity</label>
+    <input type="number" id="quantity" name="quantity" place holder="5" min="0" max=10 required>
+ </div>
+ 
+<br>
+
+<div>
+<label for="title"> Title:</label>
+
+<label for="Mr.">Mr.</label>
+<input type="radio" id="Mr." name="title">
+
+<label for="Ms.">Ms.</label>
+<input type="radio" id="Ms." name="title">
+
+
+<label for="Mrs.">Mrs.</label>
+<input type="radio" id="Mrs." name="title"> 
+
+<label for="Dr.">Dr.</label>
+<input type="radio"  id=Dr. name="title">
+</div>
+<br>
+
+<label for="Payment">Payment</label>
+<select id="quantity" name="Payment" required>
+        <option value="Card">Card</option>
+        <option value="Cash">Cash</option>
+
+</select>
+
+</div>
+
+<br>
+<br>
+<div>
+
+    <label for="Wrapped">Wrapped</label>
+    <input type="checkbox" id="Wrapped" name="wrapped" required>
+ </div>
+
+
+</div>
+
+<br>
+
+<div>
+    <input type="reset">
+</div>
+
+<br>
+
+<div>
+
+<input type="submit">
+
+</div>
+
+</form>
+
+</body>
+</html>
